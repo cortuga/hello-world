@@ -1,12 +1,38 @@
 :root {
   font: 16px / 1 sans-serif;
 }
+header {
+  background-color: rgb(255, 245, 109);
+  color: white;
+}
+nav {
 
-html {
-  height: 100%;
+}
+
+.top-image {
+  background-image: url(../images/proxy.d11uckduckgo.com.jpeg)
+  backgroung-size: auto;
+}
+
+#geometry {
+  
+}
+
+main {
+  justify-content: center;
+  padding: 100px;
+  background-color: green;
+  /* font: black; */
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+  background-color: darkslategrey;
+  text-align: center;
+  padding: 100px
+}
+h2 {
+  text-align: center;
+}
+footer {
+  justify-content: last baseline;
 }
