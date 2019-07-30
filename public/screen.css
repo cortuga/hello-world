@@ -2,16 +2,21 @@
   font: 16px / 1 sans-serif;
 }
 header {
+  justify-content: center;
   background-color: rgb(255, 245, 109);
   color: white;
 }
+
+
+
 nav {
 
 }
 
-.top-image {
-  background-image: url(../images/proxy.d11uckduckgo.com.jpeg)
-  backgroung-size: auto;
+.main-image {
+  width: 775px;
+  height: auto;
+}
 }
 
 #geometry {
@@ -27,12 +32,42 @@ main {
 
 body {
   background-color: darkslategrey;
+  /* background-image: linear-gradient(#964096,rgb(23, 71, 35),rgb(151, 23, 23),rgb(204, 186, 23)) */
   text-align: center;
   padding: 100px
+  
 }
+
+.mandleblot-description {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
 h2 {
   text-align: center;
 }
+
+.mandleblot-image1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mandleblot-description {
+  background-color: rgb(29, 40, 204);
+  text-emphasis: font;
+  font: 100;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 footer {
-  justify-content: last baseline;
+  display: flex;
+  justify-content: center;
+  flex: flex-end;
+  padding: 10rem;
 }
